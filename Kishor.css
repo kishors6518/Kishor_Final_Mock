@@ -1,0 +1,150 @@
+.mdiv{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1280px;
+	background-color: #a19f99;
+}
+.nav{
+	position: fixed;
+	top:0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+	background-color: white;
+	display: inline-flex;
+}
+.nav img{
+	margin-top: 10px;
+	margin-left: 200px;
+}
+#f1{
+	padding-top: 0px;
+	padding-left: 10px;
+	font-size: 45px;
+/*	font-weight: bold;*/
+	font-family: elephant;
+}
+#f1::first-letter{
+	color: red;
+}
+#nav1{
+	padding-top: 0px;
+}
+.nav ul li{
+	display: inline-flex;
+	margin-left: 20px;
+	color: black;
+	font-size: 23px;
+}
+a{
+	text-decoration: none;
+	color: #1d1133;
+}
+a:hover{
+	color: red;
+}
+#l2{
+	border: none;
+	font-size: 20px;
+}
+.info{
+	height: 500px;
+	width: 100%;
+	background-image: url('https://static.vecteezy.com/system/resources/previews/002/881/593/large_2x/young-asian-woman-hand-holding-shopping-bag-and-credit-card-on-grey-background-free-photo.jpg');
+    background-size: 700px;
+	background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 100%;
+}
+.info2{
+	
+	top: 100px;
+	padding-top: 100px;
+	margin-left: 18%;
+	height: 300px;
+	width: 500px;
+}
+.info2 span{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 30%;
+}
+#sp1{
+	color: red;
+	margin-left: 32%;
+
+}
+.info2 p{
+	font-size: 20px;
+}
+span{
+	text-justify: justify-all;
+	font-size: 20px;
+}
+button{
+	width: 100px;
+	height: 30px;
+	color: white;
+	background-color: red;
+	font-weight: bold;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+
+}
+button:hover{
+	color: red;
+	background-color: white;
+	transform:scale(1.1);
+}
+.info3{
+
+	padding-top: 40px;
+	left: 0px;
+	height: 350px;
+	width: 100%;
+	background-color: whitesmoke;
+}
+.info3 h3{
+	color: white;
+}
+.info3 span{
+	font-weight: bold;
+	font-size: 35px;
+	padding-left: 42%;
+}
+.tab{
+	margin-left: 15%;
+	width: 70%;
+}
+.tab tr img{
+	padding-left: 40%;
+}
+.tab tr td p{
+	color: white;
+}
+.info4{
+	
+	top: 300px;
+	background-image: url('https://us.123rf.com/450wm/repinanatoly/repinanatoly2101/repinanatoly210100382/162333994-handsome-happy-young-man-showing-blank-bank-cor-discount-card.jpg?ver=6');
+	background-position-x: 3%;
+	background-position-y: 45%;
+	background-repeat: no-repeat;
+	background-size: 500px;
+	height: 500px;
+}
+.newa{
+	margin-left: 45%;
+	padding-top: 55px;
+	
+	left: 45%;
+	width: 450px;
+}
+.newa h1{
+	font-weight: bold;
+}
+.newa p{
+	font-size: 20px;
+}
